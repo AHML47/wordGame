@@ -1,0 +1,57 @@
+html{
+  height: 100%;
+  background-image: url("../src/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.menu{
+  
+  display: flex;
+  position: fixed;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  list-style-type: none;
+  
+}
+
+
+#settingsmenu{
+  
+  display: none;
+ 
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #000;
+  
+}
+
+
+button{
+  width: 300px;
+  height: 60px;
+  margin-top: 20px;
+
+}
+#Audio{
+  display: none;
+}
+
+#klamB{
+  width: 500px;
+  height: 50px;
+  display: none;
+}
+#M{
+  background-color: green;
+  width: 25px;
+  height: 25px;
+}
+
+

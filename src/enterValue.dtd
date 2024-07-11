@@ -1,0 +1,4 @@
+<!ELEMENT user (name,score,rank)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT score (#PCDATA)>
+<!ELEMENT rank (#PCDATA)>

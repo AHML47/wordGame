@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="users.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<users>
+    <user>
+        <name>ahmed</name>
+        <pass>123456789ab</pass>
+        <score>150</score>
+        <rank>2</rank>
+    </user>
+    <user>
+        <name>lm3allem</name>
+        <pass>129ab</pass>
+        <score>100</score>
+        <rank>4</rank>
+    </user>
+    <user>
+        <name>mo7sen</name>
+        <pass>abcd123</pass>
+        <score>190</score>
+        <rank>1</rank>
+    </user>
+    <user>
+        <name>binomi</name>
+        <pass>123123123</pass>
+        <score>99</score>
+        <rank>5</rank>
+    </user>
+    
+    <user>
+        <name>fnak</name>
+        <pass>129ab</pass>
+        <score>98</score>
+        <rank>6</rank>
+    </user>
+    <user>
+        <name>bou7sini</name>
+        <pass>129987</pass>
+        <score>105</score>
+        <rank>3</rank>
+    </user>
+</users>

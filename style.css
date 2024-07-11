@@ -1,0 +1,155 @@
+table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: white;
+  }
+  
+  .filled-box {
+    border: 2px solid black;
+  }
+  
+  .letter-row {
+    display: flex;
+  }
+  #status{
+    text-align: center
+  }
+
+
+#myAudio{
+  display: none;
+}
+
+#title{
+  text-align: center;
+}
+#logInDiv{
+  display: none;
+}
+#signInDiv{
+  display: none;
+}
+#tabloB{
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 45%;
+  background-color: blanchedalmond;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  border: 1px solid #000;
+  transform: translate(-50%, -50%);
+}
+#det{
+  top: 25%;
+  display: none;
+}
+html{
+  background-image: url("src/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+#settingsmenu{
+  
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 45%;
+  background-color: blanchedalmond;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  border: 1px solid #000;
+  transform: translate(-50%, -50%);
+}
+#settings{
+  position: relative;
+  z-index: 10;
+}
+
+#user{
+  
+  display: none;
+  position: fixed;
+  top: 40%;
+  left: 45%;
+  background-color: blanchedalmond;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  border: 1px solid #000;
+  transform: translate(-50%, -50%);
+  
+}
+
+#res{
+  display: block;
+  margin: auto;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("src/restart.png");
+  background-size: cover;
+  background-position: center;
+  
+}
+
+#trofies{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("src/rank.jpg");
+  background-size: cover;
+  background-position: center;
+  
+}
+.Button2{
+  width: 100px;
+  height: 25px;
+  margin-bottom: 2px;
+  margin-top: 4px;
+}
+input{
+  margin-top: 2px;
+}
+#usericon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("src/user.png");
+  background-size: cover;
+  background-position: center;
+
+}
+#gearicon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url("src/settings.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#M{
+  background-color: green;
+  width: 25px;
+  height: 25px;
+}

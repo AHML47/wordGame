@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ejaw</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="keyboard/style.css">
+    <link rel="stylesheet" href="menu/style.css">
+    
+    <script src="main.js"></script>
+</head>
+<body onload="main()">
+    <div id="settings">
+        <button id="gearicon"></button>
+        <div id="settingsmenu" >
+            <h2>settings</h2>
+            <div>
+                
+                <input type="checkbox" name="auto" id="auto"/>
+                <label for="auto">auto-correct</label>
+            </div>
+            <div>
+                <button id="M" name="M"></button>
+                <label for="M">music</label> 
+                
+            </div>
+        </div>
+    </div>
+
+
+    <div id="account">
+    <button id="usericon" onclick="showup()"></button>
+    <div id="user">
+        <div id="d5oul">
+            <button class="Button2" id="BLog" onclick="loginB()">log in</button>  <button class="Button2" id="Bsign" onclick="signinB()">sign in</button>
+            
+            <div id="logInDiv">
+                <p id="ktiba">enter your details for log in</p>
+                <label for="Un">Username</label>
+                <input type="text" id="UnL" name="Un"/>
+                <label for="Pw">password </label>
+                <input type="password" id="PwL" name="Pw"/>
+                <button class="Button2" onclick="login()" >log in</button>
+            </div>
+            
+            <div id="signInDiv">
+                <p id="ktiba1">enter your details for sign In</p>
+                <label for="Un">Username</label>
+                <input type="text" id="UnS" name="Un"/>
+                <label for="Pw">password </label>
+                <input type="password" id="PwS" name="Pw"/>
+                
+                <button class="Button2" id="signin" onclick="signin()">sign In</button>
+            </div>
+
+        </div>
+        <div id="det" >
+            <label for="name">name = </label>
+            <label id="name" name="name"></label>
+            <hr>
+            <label for="score">score = </label>
+            <label id="score" name="score">0</label>
+            <hr>
+            <button onclick="logout()"> logout </button>
+        </div>
+    </div>
+    </div>
+
+    <div id="trofies">
+        <button id="trofies" onclick="showtrofies()"></button>
+        <div id="tabloB">
+
+        </div>
+    </div>
+   <h2 id="title">play</h2>
+   
+   <div id="gameBody"></div>
+    <h3 id="status">goodluck</h3>
+    <div id="keyboard-cont">
+        <div class="first-row">
+            <button class="keyboard-button">a</button>
+            <button class="keyboard-button">z</button>
+            <button class="keyboard-button">e</button>
+            <button class="keyboard-button">r</button>
+            <button class="keyboard-button">t</button>
+            <button class="keyboard-button">y</button>
+            <button class="keyboard-button">u</button>
+            <button class="keyboard-button">i</button>
+            <button class="keyboard-button">o</button>
+            <button class="keyboard-button">p</button>
+        </div>
+        <div class="second-row">
+            <button class="keyboard-button">q</button>
+            <button class="keyboard-button">s</button>
+            <button class="keyboard-button">d</button>
+            <button class="keyboard-button">f</button>
+            <button class="keyboard-button">g</button>
+            <button class="keyboard-button">h</button>
+            <button class="keyboard-button">j</button>
+            <button class="keyboard-button">k</button>
+            <button class="keyboard-button">l</button>
+            <button class="keyboard-button">m</button>
+        </div>
+        <div class="third-row">
+            <button class="keyboard-button">Del</button>
+            <button class="keyboard-button">w</button>
+            <button class="keyboard-button">x</button>
+            <button class="keyboard-button">c</button>
+            <button class="keyboard-button">v</button>
+            <button class="keyboard-button">b</button>
+            <button class="keyboard-button">n</button>
+            <button class="keyboard-button">Enter</button>
+        </div>
+    </div>
+    <button id="res" onclick="restart()" ></button>
+    <audio id="myAudio">
+        <source src="src/music.mp3.mp3" type="audio/mpeg">
+    </audio>
+</body>

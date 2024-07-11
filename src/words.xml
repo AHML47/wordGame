@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<levels xmlns:xsi="http://www.w3.org/2001/XMLShema-instance" xsi:noNamespaceShemaLocation="words.xsd">
+    <level name="Level 1">
+        <word id="W1">abcde</word>
+        <word id="W2">fedii</word>
+        <word id="W3">ahmed</word>
+        <word id="W4">kelma</word>
+        <word id="W5">ejaww</word>
+        <word id="W6">htmlt</word>
+        <word id="W7">putin</word>
+        
+    </level>
+    <level name="Level 2">
+        <word id="W7">knjio</word>
+        <word id="W8">jxlan</word>
+        <word id="W9">oeqjs</word>
+        <word id="W10">xucwx</word>
+        <word id="W11">dzana</word>
+        <word id="W12">drxgx</word>
+    </level>
+    <level name="Level 3">
+        <word id="W13">ibkmm</word>
+        <word id="W14">sowqr</word>
+        <word id="W15">spuvw</word>
+        <word id="W16">xyxab</word>
+        <word id="W17">pdpfg</word>
+        <word id="W18">hmjpl</word>
+    </level>
+    <level name="Level 4">
+        <word id="W19">mnopq</word>
+        <word id="W20">rstuv</word>
+        <word id="W21">wxyza</word>
+        <word id="W22">bcdef</word>
+        <word id="W23">ghijk</word>
+        <word id="W24">lmnop</word>
+    </level>
+    <level name="Level 5">
+        <word id="W25">qrsuv</word>
+        <word id="W26">wxyqz</word>
+        <word id="W27">abcef</word>
+        <word id="W28">ghikl</word>
+        <word id="W29">mopqr</word>
+        <word id="W30">stuvy</word>
+    </level>
+    <level name="Level 6">
+        <word id="W31">xybcd</word>
+        <word id="W32">efhij</word>
+        <word id="W33">klopq</word>
+        <word id="W34">ruvwx</word>
+        <word id="W35">wxyza</word>
+        <word id="W36">bcefg</word>
+    </level>
+</levels>
